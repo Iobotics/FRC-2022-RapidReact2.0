@@ -5,4 +5,9 @@
 package frc.robot.subsystems;
 
 /** Add your docs here. */
-public class Drivetrain {}
+public class Drivetrain extends Subsystem {
+    private TalonFX leftSlave;
+    private TalonFX leftMaster;
+    private TalonFX rightSlave;
+    private TalonFX rightMaster;
+}
