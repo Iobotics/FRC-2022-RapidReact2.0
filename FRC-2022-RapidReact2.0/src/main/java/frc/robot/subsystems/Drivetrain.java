@@ -29,7 +29,8 @@ public class Drivetrain extends SubsystemBase {
         rightMaster.setInverted(false);
         rightSlave.setInverted(false);
 
-        leftSlave.equals(leftMaster); //sets slave to follow master
-        rightSlave.equals(rightMaster); //sets slave to follow master
+        leftSlave.follow(leftMaster); //sets slave to follow master
+        rightSlave.follow(rightMaster); //sets slave to follow master
+        
     }
 }
